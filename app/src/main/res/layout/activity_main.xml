@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/darker_gray"
+    android:layout_height="match_parent"
+    tools:context="com.example.medti.demo1.MainActivity">
+   <LinearLayout
+       android:layout_width="344dp"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="10dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Location"
+            android:textStyle="bold"
+            android:layout_margin="80dp"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"/>
+
+       <EditText
+           android:id="@+id/sss"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter location"
+           android:inputType="text"/>
+
+       <Button
+           android:id="@+id/btn"
+           android:layout_width="120dp"
+           android:layout_height="60dp"
+           android:layout_marginLeft="120dp"
+           android:text="Search" />
+
+       <TextView
+       android:id="@+id/textView1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textStyle="bold"
+       android:textSize="30dp"/>
+
+   </LinearLayout>
+</android.support.constraint.ConstraintLayout>
